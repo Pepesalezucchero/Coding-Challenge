@@ -1,0 +1,84 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+*{
+    font-family: 'Inclusive Sans', sans-serif;   
+}
+
+.Container{
+    width: 1200px;
+    padding-top: 100px;
+    margin: auto;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#Logo{
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+#Titolo{
+    color: rgb(66, 201, 13);
+    margin-left: 400px;
+    margin-bottom: 2px;
+}
+
+.ContainerNav, .FontContenutoPrincip, .StatBatt, .SpazioVuoto {
+    margin-left: 100px;
+}
+
+.ContainerNav{
+    background-color: rgb(66, 201, 13);
+    margin-right: 100px;
+    padding: 13px;
+}
+
+.Navigazione{
+    margin-left: 350px;
+}
+
+.FontContenutoPrincip, .StatBatt{
+    color: white;
+}
+
+.FontContenutoPrincip{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.StatBatt{
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.Caric1, .Caric2, .Caric3{
+    margin-left: 100px;
+    margin-top: 1px;
+    padding-top: 35px;
+    border-radius: 6px;
+}
+
+.Caric1{
+    width: 390px;
+    background-color: orange;
+}
+
+.Caric2{
+    width: 643px;
+    background-color: green;
+}
+
+.Caric3{
+    width: 255px;
+    background-color: red;
+}
+
+.SpazioVuoto{
+    width: 0px;
+    margin-top: 1px;
+    padding-top: 35px;
+}
